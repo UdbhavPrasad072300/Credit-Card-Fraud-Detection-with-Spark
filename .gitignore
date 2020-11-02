@@ -1,3 +1,4 @@
 *.class
 *.log
 src/main/resources/creditcard.csv
+*.csv
