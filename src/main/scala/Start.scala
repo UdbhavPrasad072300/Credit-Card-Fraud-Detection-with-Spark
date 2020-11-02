@@ -34,7 +34,7 @@ object Start {
     val rf = new RandomForestClassifier()
       .setLabelCol("class")
       .setFeaturesCol("features")
-      .setNumTrees(30)
+      .setNumTrees(100)
     val model = rf.fit(trainingData)
 
     val predictions = model.transform(testData)
